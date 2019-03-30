@@ -1,6 +1,7 @@
 body{
-  background-image: url('https://www.itsnicethat.com/system/files/042018/5ae6f3217fa44c56d400009b/images_slice_large/david-shrigley-itsnicethat-fully-coherent-plan-book-Lies.jpg?1525085136');
-  height: 100%;
+  /* background-image: url('https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/4965897/300/200/m1/fpnw/wm0/adaswqjqyizcdcqcjy4azabpb1jmf2cb2ioewnkbtoowt2cugqcdhbsow1bmodcu-.jpg?1535487619&s=d1f797069bf9dd8985353eb8d81e7b99'); */
+  background-image: url('https://cdn.webshopapp.com/shops/7290/files/195573809/schmuckgewand-iron-wire-art-face-woman.jpg');
+  /* height: 100%; */
 }
 .mdl-layout__header-row{
   
@@ -21,7 +22,7 @@ a{
 } */
 
 .portfolio{
-  height: 250px;
+  /* height: 250px; */
   padding-top: 5em;
   /* color: #AA1111; */
   color: pink;
