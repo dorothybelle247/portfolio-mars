@@ -1,26 +1,35 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import { Layout, Header, Navigation, Drawer,Content } from 'react-mdl';
 import './App.css';
+import Main from './components/Main';
+import { Link } from 'react-router-dom';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      
+      // <div style={{height: '300px', position: 'relative'}}>
+      <Layout fixedHeader>
+          {/* <Header className="header-color" title={<span><span style={{ Color: '#E4EE8' }}>Area / </span><strong>The Title</strong></span>}> */}
+          <Header className="header-color" title={<span><span style={{ Color: '#E4EE8' }}> / </span><strong></strong></span>}>
+              <Navigation>
+                  {/* <Link to="/">Home</Link> */}
+                  <Link to="/about">about</Link>
+                  <Link to="/projects">projects</Link>
+                  <Link to="/contact">contact</Link>
+              </Navigation>
+          </Header>
+          <Drawer title="Title">
+              <Navigation>
+              <Link to="/about">about</Link>
+                  <Link to="/projects">projects</Link>
+                  <Link to="/contact">contact</Link>
+              </Navigation>
+          </Drawer>
+          <Main />
+          <Content />
+      </Layout>
+  // </div>
     );
   }
 }
