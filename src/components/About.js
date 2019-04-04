@@ -35,7 +35,7 @@ class About extends Component {
           </Cell> */}
 
 <div className="col s12 m7">
-    <h2 className="header">About me</h2>
+    <h2 className="header" >About me</h2>
     <div className="card horizontal">
       <div className="card-image">
         {/* <img src="https://lorempixel.com/100/190/nature/6" alt='sun'> */}
@@ -55,7 +55,7 @@ class About extends Component {
                to build their website, and spreading their message across.</p>
         </div>
         <div className="card-action">
-          <a href="a">This is a link</a>
+          <a href="https://docs.google.com/document/d/1G_hmcU-Lj3KWI5Ht36Vj0T9i4S16ZMbLrwVc7wFhQRw/edit?usp=sharing"><div className='carda'>Resume Link</div></a>
         </div>
       </div>
     </div>

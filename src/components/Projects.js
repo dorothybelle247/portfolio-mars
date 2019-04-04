@@ -9,55 +9,74 @@ class Projects extends Component {
   }
 
   toggleCategories() {
+      
 
     if(this.state.activeTab === 0){
       return(
-        <div className="projects-grid">
+        <div className="row" >
           {/* Project 1 */}
+          <div className="col-sm-3 col-md-12">
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #1</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.cookingclassy.com/wp-content/uploads/2018/01/chocolate-covered-strawberry-cupcakes-3.jpg) center / cover'}} >Cupcake Website</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              For a cupcake company name taste and see my team and i created the website
+              <br />
+              The languages that were used are 
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
+              {/* <Button colored>CodePen</Button> */}
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
-          {/* Project 2 */}
+          </div>
+          <br />
+
+
+           {/* Project 1 */}
+           <div className="col-sm-3 col-md-12">
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #2</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80) center / cover'}} >Cupcake Website</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              For a cupcake company name taste and see my team and i created the website
+              <br />
+              The languages that were used are 
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
+              {/* <Button colored>CodePen</Button> */}
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
-          {/* Project 3 */}
+          </div>
+
+<br />
+           {/* Project 1 */}
+           <div className="col-sm-3 col-md-12">
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #3</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://static1.squarespace.com/static/5877f8432e69cf17b666a5f9/t/59a41c6349fc2ba429d7ee00/1510750292011/Paint20Pots.jpg?format=1500w) center / cover'}} >Cupcake Website</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              For a cupcake company name taste and see my team and i created the website
+              <br />
+              The languages that were used are 
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
+              {/* <Button colored>CodePen</Button> */}
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
+          </div>
+          
         </div>
       )
     } else if(this.state.activeTab === 1) {
@@ -78,10 +97,10 @@ class Projects extends Component {
     return(
       <div>
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-          <Tab>React</Tab>
-          <Tab>Angular</Tab>
+          <Tab>Projects</Tab>
+          {/* <Tab>Angular</Tab>
           <Tab>VueJS</Tab>
-          <Tab>MongoDB</Tab>
+          <Tab>MongoDB</Tab> */}
         </Tabs>
           <Grid>
             <Cell col={12}>

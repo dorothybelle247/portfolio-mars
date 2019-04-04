@@ -1,16 +1,20 @@
 body{
   /* background-image: url('https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/4965897/300/200/m1/fpnw/wm0/adaswqjqyizcdcqcjy4azabpb1jmf2cb2ioewnkbtoowt2cugqcdhbsow1bmodcu-.jpg?1535487619&s=d1f797069bf9dd8985353eb8d81e7b99'); */
-  background-image: url('https://banner2.kisspng.com/20180404/fqq/kisspng-gray-wolf-geometry-art-drawing-geometric-background-5ac5835f545029.0516133215228936633454.jpg');
+  background-image: url('https://c.wallhere.com/photos/27/46/nature_animals_artwork_fox_geometry_triangle_low_poly_tail-106411.png!d');
   /* height: 100%; */
   position: relative;
   background-color:rgb(231, 192, 200);
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
   
 
   
 }
 .mdl-layout__header-row{
   
-  background: rgb(216, 172, 172);
+  background: #D6AC5D;
+  /* background: #E4C256; */
 }
 
 .material-icons{
@@ -26,7 +30,8 @@ a{
   position: absolute;
   width:100%;
  
-  background:rgba(167, 98, 112, 0.233);
+  /* background:rgba(167, 98, 112, 0.233); */
+ 
   height:100%;
   top:0;
   left:0;
@@ -36,7 +41,13 @@ a{
 }
 .port{
   font-size: 200px;
-
+  color: #3A0A14;
+}
+@media only screen and (max-width: 100px) {
+  .port {
+   font-size: 100px;
+   color :yellow;
+  }
 }
 .me{
   color: rgb(124, 38, 209);
@@ -47,6 +58,7 @@ a{
 /* projects */
 .projects-grid {
   display: flex;
+
 }
 
 
@@ -58,7 +70,7 @@ a{
 
 .contact-body{
   margin: auto;
-  background-color: rgb(167, 98, 112);
+  background-color: #616569;
   
    /* position: absolute;  */
   width: 100%;
@@ -70,11 +82,11 @@ a{
   text-align: center;
   justify-content: center;
   width: 80%;
-  height: 1500px;
-  background-color: rgb(231, 192, 200);
+  /* height: 1500px; */
+  background-color: #CBB5A6;
   /* position: fixed; */
   color: black;
-  border: 2px solid rgb(155, 89, 89);
+  /* border: 2px solid rgb(155, 89, 89); */
   margin-bottom: 20px;
  
   
@@ -108,14 +120,15 @@ body {
 
 #container {
   color:#999;
-  text-transform: uppercase;
-  font-size:36px;
+  /* text-transform: uppercase; */
+  font-size:46px;
   font-weight:bold;
   padding-top:200px;  
   position:fixed;
   width:100%;
   bottom:45%;
   display:block;
+  color: #383D4A;
 }
 
 #flip {
@@ -136,13 +149,15 @@ body {
 }
 
 #flip div div {
-  background:#42c58a;
+  background:#606847;
 }
 #flip div:first-child div {
-  background:#4ec7f3;
+  background: #606847;
+  
 }
 #flip div:last-child div {
   background:#DC143C;
+  
 }
 
 @keyframes show {
@@ -156,14 +171,30 @@ body {
   100% {margin-top:-270px;}
 }
 
-p {
+/* p {
   position:fixed;
   width:100%;
   bottom:30px;
   font-size:12px;
   color:#999;
   margin-top:200px;
+} */
+
+h2{
+  color: #C33F20;
 }
+.carda{
+  color: #C43E20;
+}
+@import url('https://fonts.googleapis.com/css?family=Mrs+Sheppards');
+.door{
+  color: #3A0A14;
+  font-family: 'Mrs Sheppards', cursive;
+  font-size: 20px;
+  
+}
+
+
 
 
 
