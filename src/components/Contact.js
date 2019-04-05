@@ -45,7 +45,7 @@ class Contact extends Component {
 </List>
 <p>REACT, HTML, CSS, Bootstrap <br/> HTML5, CSS3, Flexbox<br/> Metarialize.css, Senmatic UI
 <br/>JavaScript </p>
-<a href="https://docs.google.com/document/d/1G_hmcU-Lj3KWI5Ht36Vj0T9i4S16ZMbLrwVc7wFhQRw/edit?usp=sharing">resume</a>
+{/* <a href="https://docs.google.com/document/d/1G_hmcU-Lj3KWI5Ht36Vj0T9i4S16ZMbLrwVc7wFhQRw/edit?usp=sharing">resume</a> */}
         </div>
           </Cell>
            

@@ -21,12 +21,13 @@ class Projects extends Component {
             <CardText>
               For a cupcake company name taste and see my team and i created the website
               <br />
-              The languages that were used are 
+              The languages that were used are HTML, CSS, JavaScript, 
+              MYSQL, nosql, Google Authentication, Angular
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
+              {/* <Button colored>GitHub</Button> */}
               {/* <Button colored>CodePen</Button> */}
-              <Button colored>Live Demo</Button>
+              <Button colored><a href="https://agile-savannah-42839.herokuapp.com/">Live Demo</a></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -36,19 +37,19 @@ class Projects extends Component {
           <br />
 
 
-           {/* Project 1 */}
+           {/* Project 2 */}
            <div className="col-sm-3 col-md-12">
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80) center / cover'}} >Cupcake Website</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80) center / cover'}} >Food Website</CardTitle>
             <CardText>
-              For a cupcake company name taste and see my team and i created the website
+            A website that allows users to choose a meal and it calculates the caalories of the meal.
               <br />
-              The languages that were used are 
+              The languages and technologies that were used are HTML5, CSS3, NODEJS, API'S, SASS AND MYSQL
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
+              <Button colored><a href="https://github.com/mhoobler/food-project">Github</a></Button>
               {/* <Button colored>CodePen</Button> */}
-              <Button colored>Live Demo</Button>
+              <Button colored><a href="https://mhoobler.github.io/food-project/">Live Demo</a></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -57,14 +58,14 @@ class Projects extends Component {
           </div>
 
 <br />
-           {/* Project 1 */}
+           {/* Project 3 */}
            <div className="col-sm-3 col-md-12">
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://static1.squarespace.com/static/5877f8432e69cf17b666a5f9/t/59a41c6349fc2ba429d7ee00/1510750292011/Paint20Pots.jpg?format=1500w) center / cover'}} >Cupcake Website</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://static1.squarespace.com/static/5877f8432e69cf17b666a5f9/t/59a41c6349fc2ba429d7ee00/1510750292011/Paint20Pots.jpg?format=1500w) center / cover'}} >Ecommerce Website</CardTitle>
             <CardText>
-              For a cupcake company name taste and see my team and i created the website
+              An app that allows users to shop for paint, 
               <br />
-              The languages that were used are 
+              The languages that were used are React, HTML, CSS, SASS, MongoGB, mongoose, and sql 
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>

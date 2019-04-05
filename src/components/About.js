@@ -55,7 +55,7 @@ class About extends Component {
                to build their website, and spreading their message across.</p>
         </div>
         <div className="card-action">
-          <a href="https://docs.google.com/document/d/1G_hmcU-Lj3KWI5Ht36Vj0T9i4S16ZMbLrwVc7wFhQRw/edit?usp=sharing"><div className='carda'>Resume Link</div></a>
+          {/* <a href="https://docs.google.com/document/d/1G_hmcU-Lj3KWI5Ht36Vj0T9i4S16ZMbLrwVc7wFhQRw/edit?usp=sharing"><div className='carda'>Resume Link</div></a> */}
         </div>
       </div>
     </div>
