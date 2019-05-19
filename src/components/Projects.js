@@ -27,7 +27,8 @@ class Projects extends Component {
             <CardActions border>
               {/* <Button colored>GitHub</Button> */}
               {/* <Button colored>CodePen</Button> */}
-              <Button colored><a href="https://agile-savannah-42839.herokuapp.com/">Live Demo</a></Button>
+              <Button colored><a href="https://github.com/dorothybelle247"  target="blank">Github</a></Button>
+              <Button colored><a href="https://agile-savannah-42839.herokuapp.com/"  target="blank">Live Demo</a></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -47,9 +48,9 @@ class Projects extends Component {
               The languages and technologies that were used are HTML5, CSS3, NODEJS, API'S, SASS AND MYSQL
             </CardText>
             <CardActions border>
-              <Button colored><a href="https://github.com/mhoobler/food-project">Github</a></Button>
+              <Button colored><a href="https://github.com/dorothybelle247"  target="blank">Github</a></Button>
               {/* <Button colored>CodePen</Button> */}
-              <Button colored><a href="https://mhoobler.github.io/food-project/">Live Demo</a></Button>
+              <Button colored><a href="https://mhoobler.github.io/food-project/" target="blank">Live Demo</a></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -61,16 +62,17 @@ class Projects extends Component {
            {/* Project 3 */}
            <div className="col-sm-3 col-md-12">
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://static1.squarespace.com/static/5877f8432e69cf17b666a5f9/t/59a41c6349fc2ba429d7ee00/1510750292011/Paint20Pots.jpg?format=1500w) center / cover'}} >Ecommerce Website</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://static1.squarespace.com/static/5877f8432e69cf17b666a5f9/t/59a41c6349fc2ba429d7ee00/1510750292011/Paint20Pots.jpg?format=1500w) center / cover'}} >Home Design</CardTitle>
             <CardText>
-              An app that allows users to shop for paint, 
+              An ideabook app that allows users to browse through home ideas, 
               <br />
               The languages that were used are React, HTML, CSS, SASS, MongoGB, mongoose, and sql 
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
+            <Button colored><a href="https://github.com/dorothybelle247"  target="blank">Github</a></Button>
               {/* <Button colored>CodePen</Button> */}
-              <Button colored>Live Demo</Button>
+              
+              <Button colored><a href="https://final-project-226.herokuapp.com/"  target="blank">Live Demo</a></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
