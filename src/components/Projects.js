@@ -34,8 +34,32 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
+
           </div>
           <br />
+
+
+           {/* homedesign */}
+           <div className="col-sm-3 col-md-12">
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz2VA6OFQ20DOlGfxyQWNbJJHgB28xX8oBQVxjt4EUJfusukPaOg) center / cover'}} >Modern architecture</CardTitle>
+            <CardText>
+            The website tells the story of modern architecture
+              <br />
+              The languages and technologies that were used are HTML5,Threejs, canvas, illustrator, svg, CSS3, NODEJS, API'S, SASS AND MYSQL
+            </CardText>
+            <CardActions border>
+              <Button colored><a href="https://dorothybelle247.github.io/JupiterArt/"  target="blank">Github</a></Button>
+              {/* <Button colored>CodePen</Button> */}
+              <Button colored><a href="https://dorothybelle247.github.io/JupiterArt/" target="blank">Live Demo</a></Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          </div>
+
+<br />
 
 
            {/* Project 2 */}
