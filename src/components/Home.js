@@ -10,7 +10,7 @@ class Home extends Component {
               Portfolio
             </h1>
             <div id='container'>
-            Front enD
+            WeB
   <div id='flip'>
     <div><div>React</div></div>
     <div><div>HTML</div></div>
